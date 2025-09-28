@@ -86,8 +86,8 @@ comments:
 # ────────────────────────────
 # 🖼  Media / Assets
 # ────────────────────────────
-avatar: "/assets/img/avatar.jpg"
-social_preview_image: "/assets/img/avatar.jpg"
+avatar: "/assets/img/avatar.png"
+social_preview_image: "/assets/img/avatar.png"
 
 assets:
   self_host:
