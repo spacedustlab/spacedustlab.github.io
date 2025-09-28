@@ -2,33 +2,64 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Walter Novoa - WarNov
+title: Archives of a Space Dust
 ---
 
-Veinte años de experiencia como Ingeniero de Sistemas, incluyendo trece años como Arquitecto de Soluciones en la Nube especializado en Microsoft Azure, guiando constantemente a clientes y socios sobre cómo aprovechar la Nube para satisfacer sus necesidades específicas. 
+## About
 
-Reconocido como asesor de confianza para sus clientes, con habilidades excepcionales para comprender sus requerimientos y transformarlos en soluciones técnicas mediante la colaboración con equipos multidisciplinarios. Destacado por su excepcional habilidad para diseñar exitosas soluciones técnicas de alto nivel empresarial en la nube que hoy en día incluyen la integración con soluciones de Inteligencia Artificial Generativa con GPT y otros servicios de OpenAI. 
+I am originally from [Gwangju, South Korea](https://en.wikipedia.org/wiki/Gwangju). I majored in Chemistry, Nanoscience and Computer Engineering and worked as a [software developer](./assets/Portfolio.pdf) in Seoul for three years. 
 
-Con sólidos antecedentes en arquitecturas en la nube y desarrollo de backend, le apasionan las tecnologías PaaS y Serverless.
+My current research interests lie in advancing predictive simulations of molecules and materials by (i) improving scalable electronic-structure methods (HCI, DFT), (ii) developing hybrid quantum–classical surrogate models for chemistry as the most decent applications of quantum computing, and (iii) building reliable excited-state dynamics workflows with quantified uncertainty. Broadly, I am always keen on AI/ML tools including LLMs to accelerate modeling and enhance decision-making within the scientific computing.
 
-![Walter Novoa - WarNov - International Speaker](/assets/img/infopages/warbuild.jpg)
+## Education
+* Ph.D. [Physical Chemistry, University of Wisconsin-Madison](https://chem.wisc.edu/theoretical-computational/), 2029 (Expected)
+* B.S. [Chemistry and Nanoscience, Ewha Womans University](https://myr.ewha.ac.kr/engchem/index.do), 2021
+  * Summa Cum Laude
+  * Merit-based scholarships for 6 semesters
+  * Awarded full-year full-tuition waiver upon admission
 
-Reconocido speaker internacional en eventos de tecnología digital como [Microsoft Build](https://build.microsoft.com/en-US/home), [WebCongress](https://www.webcongress.com/), [CodeCampSDQ](https://codecampsdq.com/) y otros.
+## Research Projects (Selected)
+- Research Assistant, UW–Madison, Department of Physics, *2025.06.- present*
+  - Advisor: Prof. Matthew Otten
+  - Semi-stochastic Heat bath Configuration Interaction, *manuscript*
+- Course Project, UW–Madison, Department of Electrical & Computer Engineering, *2025.04.–2025.05.*
+  - Advisor: Prof. Grigorios Chrysos  
+  - Final project in CS 761 (Mathematics for Machine Learning)\\
+  [PDEs in RKHS](./assets/PDE_RKHS.pdf)
+- Graduate Researcher, UW–Madison, Department of Chemistry, *2024.12.–2025.05.*
+  - Advisor: Prof. J.R. Schmidt  
+  - Conducted Density Functional Theory (DFT) calculations using VASP to investigate electrocatalytic reaction mechanisms on Cu and Pt surfaces.
+  - Studied adsorption behaviors of benzene (Bz) and hydrogen, and the Nudged Elastic Band (NEB) method to determine reaction pathways and energy barriers for the Oxygen Reduction Reaction (ORR).
+- Lab Rotation, UW–Madison, Department of Chemistry, *2024.10.–2024.11.*  
+  - Advisor: Prof. Xuhui Huang  
+  [Markov State Model Review](./assets/MSM.pdf)
+- Undergrad Intern, Gwangju Institute of Science and Technology (GIST) *Summer, 2019.*
+  - Advisor: Prof. Yoonsoo Pang  
+  [Metal-Enhanced Fluorescence](./assets/MEF_THEORY.pdf)
 
-Fuera del ámbito profesional, dedico mi tiempo libre a diversas actividades que me permiten disfrutar del aire libre, el deporte y la tecnología.
 
-Por un lado, el automovilismo es una de mis mayores pasiones. Desde joven, he sentido una fascinación por los automóviles y las carreras, y cuando tengo la oportunidad, disfruto participando en eventos locales de carreras o asistiendo a competiciones profesionales.
+## Work Experience
+- [Portfolio](./assets/Portfolio.pdf)
+- [CV](https://www.linkedin.com/in/haejung-koh/)
 
-![Walter Novoa - WarNov - Racing Driver](/assets/img/infopages/thecar.jpg)
+## Teaching Experience
+- [Chem 103](https://guide.wisc.edu/courses/chem/) – General Chemistry I (Spring 2025)  
+- [Chem 109](https://guide.wisc.edu/courses/chem/) – Advanced General Chemistry (Fall 2024) 
+- [Donghang](https://www.donghaeng.seoul.kr/main.do) – Volunteer Instructor (Math/Physics/Chemistry), Myungduk/Jinmyeong girl's high school (2015-2018)
 
-Además, el ciclismo es otra de mis actividades favoritas. Ya sea en solitario o en compañía de amigos, me encanta recorrer senderos y rutas escénicas en mi bicicleta. Es una excelente forma de mantenerme en forma, conectar con la naturaleza y despejar la mente después de largas jornadas de trabajo.
+## Credentials & Recognitions
+- **SQLD (Structured Query Language Developer), Korea Data Agency**  
+Passed national certification exam focused on relational database theory and SQL optimization.<br>
+- **Engineer Information Processing, HRD Korea (Human Resources Development Service of Korea)**  
+National technical license covering software development, network, system analysis, and data processing principles.<br>
+- **[Samsung Software Academy for Youth (SSAFY) 5th, Samsung Electronics](https://csr.samsung.com/en/program/samsung-sw-academy-for-youth)**  
+Completed a full-time software development program funded by Samsung Electronics.  
+Focused on python, algorithm optimization, and web development.
 
-![Walter Novoa - WarNov - Cyclist](/assets/img/infopages/thebike.png)
+## Miscellaneous
+Beyond my research, I enjoy exploring the fields of aerospace, robotics, and laser spectroscopy.\\
+In my free time, I enjoy:
+- **Making** — end-to-end projects 
+(e.g., furniture, food, and automation tools for my real purposes — grading, translation, cleaning, ....)
+- **Reading** — literature from China and Japan (e.g., 三體, 聊齋志異, 紅樓夢, 羅生門).
 
-Por otro lado, el senderismo también ocupa un lugar especial en mi vida. La conexión con la naturaleza es algo que valoro enormemente, y el senderismo me brinda la oportunidad de explorar lugares pintorescos y remotos. Disfruto aventurándome en caminatas largas y desafiantes, lo que me permite desconectarme del ajetreo de la vida urbana y disfrutar de la tranquilidad del entorno natural.
-
-![Walter Novoa - WarNov - Hiker](/assets/img/infopages/thenature.jpg)
-
-Pero sobre todo, la programación es una parte integral de mi vida profesional y personal. Aprovecho mis tiempos libres para experimentar con nuevos lenguajes de programación, explorar proyectos creativos y mantenerme actualizado con las últimas tendencias tecnológicas. Disfruto resolviendo problemas y desarrollando soluciones innovadoras. Éste es mi trono:
-
-![Walter Novoa - WarNov - Hiker](/assets/img/infopages/therig.jpg)
