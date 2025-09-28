@@ -7,7 +7,7 @@ title: Archives of a Space Dust
 
 ## About
 
-I am originally from [Gwangju, South Korea](https://en.wikipedia.org/wiki/Gwangju). I majored in Chemistry, Nanoscience and Computer Engineering and worked as a [software developer](/assets/lib/Portfolio.pdf) in Seoul for three years. 
+I am originally from [Gwangju, South Korea](https://en.wikipedia.org/wiki/Gwangju). I majored in Chemistry, Nanoscience and Computer Engineering and worked as a [software developer](/assets/Portfolio.pdf) in Seoul for three years. 
 
 My current research interests lie in advancing predictive simulations of molecules and materials by (i) improving scalable electronic-structure methods (HCI, DFT), (ii) developing hybrid quantum–classical surrogate models for chemistry as the most decent applications of quantum computing, and (iii) building reliable excited-state dynamics workflows with quantified uncertainty. Broadly, I am always keen on AI/ML tools including LLMs to accelerate modeling and enhance decision-making within the scientific computing.
 
@@ -25,21 +25,21 @@ My current research interests lie in advancing predictive simulations of molecul
 - Course Project, UW–Madison, Department of Electrical & Computer Engineering, *2025.04.–2025.05.*
   - Advisor: Prof. Grigorios Chrysos  
   - Final project in CS 761 (Mathematics for Machine Learning)\\
-  [PDEs in RKHS](../assets/lib/PDE_RKHS.pdf)
+  [PDEs in RKHS](/assets/PDE_RKHS.pdf)
 - Graduate Researcher, UW–Madison, Department of Chemistry, *2024.12.–2025.05.*
   - Advisor: Prof. J.R. Schmidt  
   - Conducted Density Functional Theory (DFT) calculations using VASP to investigate electrocatalytic reaction mechanisms on Cu and Pt surfaces.
   - Studied adsorption behaviors of benzene (Bz) and hydrogen, and the Nudged Elastic Band (NEB) method to determine reaction pathways and energy barriers for the Oxygen Reduction Reaction (ORR).
 - Lab Rotation, UW–Madison, Department of Chemistry, *2024.10.–2024.11.*  
   - Advisor: Prof. Xuhui Huang  
-  [Markov State Model Review](/assets/lib/MSM.pdf)
+  [Markov State Model Review](/assets/MSM.pdf)
 - Undergrad Intern, Gwangju Institute of Science and Technology (GIST) *Summer, 2019.*
   - Advisor: Prof. Yoonsoo Pang  
-  [Metal-Enhanced Fluorescence](/assets/lib/MEF_THEORY.pdf)
+  [Metal-Enhanced Fluorescence](/assets/MEF_THEORY.pdf)
 
 
 ## Work Experience
-- [Portfolio](/assets/lib/Portfolio.pdf)
+- [Portfolio](/assets/Portfolio.pdf)
 - [LinkedIn](https://www.linkedin.com/in/haejung-koh/)
 
 ## Teaching Experience
