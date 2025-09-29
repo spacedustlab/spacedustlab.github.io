@@ -2,10 +2,11 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Archives of a Space Dust
+title: Haejung Koh
 ---
+Thi is the archives of a space dust for studying quantum computing, development, and GenAI.
 
-## About
+## About me
 
 I am originally from [Gwangju, South Korea](https://en.wikipedia.org/wiki/Gwangju). I majored in Chemistry, Nanoscience and Computer Engineering and worked as a [software developer](/assets/Portfolio.pdf) in Seoul for three years. 
 
