@@ -21,23 +21,23 @@ description: >-
   potential of cloud computing, cutting-edge development techniques, and
   AI-driven solutions.
 
-url: "https://warnov.github.io"
+url: "https://spacedustlab.github.io"
 baseurl: ""          # (sin dominio personalizado)
 
 # ────────────────────────────
 # 👤 Social profiles
 # ────────────────────────────
 github:
-  username: warnov
+  username: spacedustlab
 twitter:
-  username: warnov
+  username: 
 
 social:
   name: space dust
   email: 
   links:
-    - https://github.com/MaximHelio
-    - https://www.linkedin.com/in/haejung-koh
+    - https://github.com/spacedustlab
+    # - https://www.linkedin.com/in/haejung-koh
 # ────────────────────────────
 # 📈 Analytics
 # ────────────────────────────
