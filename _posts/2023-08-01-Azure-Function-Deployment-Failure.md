@@ -1,5 +1,5 @@
 ---
-title: Error inexplicable en el despliegue de una Azure Function
+title: Unexplainable Error in Azure Function Deployment
 date: 2023-08-01 01:24:00 -0500
 categories: [Azure, Serverless]
 tags: [azure, azure functions, deployment, error, visual studio, troubleshooting]     # TAG names should always be lowercase
@@ -8,31 +8,30 @@ image:
   alt: Azure Function deployment from Visual Studio error dialog box
 ---
 
-Dos preciosas horas de mi vida desaparecieron gracias a éste críptico mensaje de error que me apareció cuando muy contento yo ya estaba intentado desplegar mi `Azure Function` en Azure luego de que ya funcionaba perfectamente en mi entorno usando lo último del modelo `Isolated` en `dotnet 7` (aclaro que ésto no tuvo que ver con el error) junto con el excelente servicio para manejo de configuración de aplicaciones `Azure App Configuration` e incluso `KeyVault`! (Puedes consultar más detalles de cómo lograr esto en [éste post](https://blog.warnov.com/posts/AAC-KV-FX/) que escribí al respecto).
+Two precious hours of my life disappeared thanks to this cryptic error message that appeared just when I was happily trying to deploy my `Azure Function` to Azure, after it had already been working perfectly in my environment using the latest `Isolated` model in `dotnet 7` (note: this had nothing to do with the error), along with the excellent application configuration management service `Azure App Configuration` and even `KeyVault`! (You can check out more details on how to achieve this in [this post](https://blog.warnov.com/posts/AAC-KV-FX/) I wrote about it).
 
-Como se nota, no es que el mensaje de error proporcione mucha información. Excepto que se puede ir a ver un archivo de log. Que si lo abrimos nos muestra majestuosamente:
+As you can see, the error message doesn’t provide much information. Except that you can go look at a log file. Which, when opened, majestically shows us:
 
-![Archivo de log inútil](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Useless-Log-File.png)
+![Useless log file](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Useless-Log-File.png)
 
-Lo mismo: nada. Ni una pista de lo que sucede.
+The same: nothing. Not a clue about what’s happening.
 
-Reinicié Visual Studio, la máquina, intenté desde otro PC, luego desde una VM en Azure, y siempre tuve el mismo error, aún cuando ya había podido desplegar esta función antes. Además el hecho de que la `Azure Function` corriera impecablemente en cualquiera de las máquinas que probé hacía que me confundiera más.
+I restarted Visual Studio, restarted the machine, tried from another PC, then from an Azure VM, and always had the same error, even though I had successfully deployed this function before. The fact that the `Azure Function` ran flawlessly on any machine I tried only confused me further.
 
-Solo fue cuando la divina providencia de pura casualidad hizo que `Visual Studio` me mostrara el `Solution Explorer` pero en modo carpetas `(Folder View)`, que noté algo muy raro:
+It was only when divine providence, purely by chance, made `Visual Studio` show me the `Solution Explorer` in folder view `(Folder View)` that I noticed something very odd:
 
-![Ventajas de la vista de carpeta o Folder View](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Blessed-Folder-View.png)
+![Folder View advantages](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Blessed-Folder-View.png)
 
-Esto me hizo notar que el proyecto de alguna manera se me había duplicado (tal vez un `drag-and-drop`accidental). Y, aunque el proyecto interno era el que tenía la última versión y allí funcionaba correctamente de manera local, al tratar de desplegarlo, el `wizard` de `Visual Studio` se confunde porque se encuentra que el proyecto que intenta desplegar está contenido en otro proyecto. Sin embargo, el hecho de que la  `Azure Function` compilará y funcionara bien hacía muy difícil pensar en esto que de casualidad noté.
+This made me realize that the project had somehow been duplicated (maybe due to an accidental `drag-and-drop`). And although the inner project was the one that had the latest version and worked correctly locally, when trying to deploy, the `Visual Studio` wizard gets confused because it finds that the project it is trying to deploy is contained within another project. However, the fact that the `Azure Function` compiled and ran fine made it very difficult to think of this, which I only noticed by chance.
 
-Cuando noté esto, aún no había empezado a intentar la solución de desplegar por FTP por ejemplo. Aunque, en este caso creo que no habría habido problema porque en el despliegue manual yo solo hubiese subido el contenido de la carpeta `bin`que es la que se requiere para correr la función en Azure. Además viendo la estructura de carpetas en el cliente FTP, muy seguramente habría notado esta irregularidad.
+When I noticed this, I hadn’t yet tried to solve the issue by deploying via FTP, for example. Although in this case I don’t think that would have been a problem, because in manual deployment I would only have uploaded the contents of the `bin` folder, which is what is required to run the function in Azure. Also, by looking at the folder structure in the FTP client, I likely would have noticed this irregularity.
 
-Pues bien, procedí a eliminar los archivos externos y luego moví los internos un nivel más arriba y finalmente eliminé la carpeta que quedó vacía y de esta manera me quedó una estructura de este tipo:
+So, I proceeded to delete the external files, then moved the internal ones up one level, and finally deleted the now-empty folder, leaving me with a structure like this:
 
-![Estructura de archivos corregida](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Fixed-File-Structure.png)
+![Corrected file structure](/assets/img/posts/2023-08-01-Azure-Function-Deployment-Failure-Fixed-File-Structure.png)
 
-Después de esto ya el despliegue funcionó perfectamente!
+After this, the deployment worked perfectly!
 
-### Moraleja: 
+### Moral:
 
-Si tu aplicación funciona correctamente y estás seguro que todo se ha configurado correctamente para el despliegue y sin embargo sigues teniendo problemas de despliegue, es muy probable que de alguna manera tengas una estructura de archivos errada como en el caso mostrado, que necesite ser corregida.
-
+If your application works correctly and you’re sure everything has been configured properly for deployment, yet you continue to face deployment problems, it’s very likely that you have an incorrect file structure, like in the case shown here, that needs to be corrected.
