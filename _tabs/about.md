@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 title: Archives of a Space Dust
 ---
-This is the archives of a space dust for studying quantum computing, development, and GenAI.
+An archive of space dust for delving into quantum computing, generative AI, and the chemistry of named reactions.
 
 ## About me
 
@@ -62,5 +62,6 @@ Beyond my research, I enjoy exploring the fields of aerospace, robotics, and las
 In my free time, I enjoy:
 - **Making** — end-to-end projects 
 (e.g., furniture, food, and automation tools for my real purposes — grading, translation, cleaning, ....)
-- **Reading** — literature from China and Japan (e.g., 三體, 聊齋志異, 紅樓夢, 羅生門).
-
+- **Exploring** — new AI tools 
+(e.g., Midjourney, Stable Diffusion, Runway ML, Suno, Udio, Notion AI...) and everyday robots
+- Reading — literatures from China and Japan (e.g., 三體, 聊齋志異, 紅樓夢, 羅生門).
