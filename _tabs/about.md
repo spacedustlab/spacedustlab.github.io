@@ -2,9 +2,9 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Haejung Koh
+title: Archives of a Space Dust
 ---
-Thi is the archives of a space dust for studying quantum computing, development, and GenAI.
+This is the archives of a space dust for studying quantum computing, development, and GenAI.
 
 ## About me
 
