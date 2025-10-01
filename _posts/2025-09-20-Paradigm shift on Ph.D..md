@@ -3,8 +3,8 @@ title: Paradigm shift on PhD
 date: 2025-09-20 18:22:00 -0500
 categories: [note AI, Storage]
 tags: [AI, AI tools]
-image:
-  path: /assets/img/posts/notionAI.png
+# image:
+  # path: /assets/img/posts/.png
 ---
 
 ## Do We Still Need PhDs?
@@ -35,9 +35,4 @@ And weaving all of it back into society and human life.
 This role as a “translator of knowledge” is not something that mere information retrieval can replace. It is an intellectual bridge—and while AI can rearrange information, only humans can walk across that bridge, assign meaning, and bring people together.
 
 ## Conclusion: The Meaning of the PhD
-Even in an age where AI delivers answers, there are three reasons humanity still needs PhDs:
-The ability to ask questions
-The ability to endure uncertainty
-The ability to connect disciplines
-The PhD remains relevant—but not as a rigid ticket to academia. Instead, it should function as a minimal yet vital institution: a space to cultivate the human capacity to discover meaning, to connect what is fragmented, and to experience what it means to have “been through it.”
-And, of course, for some people—those who already embody all these traits naturally—it may not be necessary at all.
+The question is whether we let the dog bite or tame it. If we tame the technologies that threaten jobs, people can still find ways to endure.
