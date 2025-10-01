@@ -1,6 +1,6 @@
 ---
-title: Prompt Flow not Available in Azure AI Foundry Projects
-date: 2025-06-16 19:03:00 -0500
+title: Shifting Industry Waves: A Timeline of Hype Cycles
+date: 2025-07-15 19:03:00 -0500
 categories: [GenAI, Prompt Flow]
 tags: [prompt flow, logic apps, semantic kernel, lang chain, orchestration]
 image:

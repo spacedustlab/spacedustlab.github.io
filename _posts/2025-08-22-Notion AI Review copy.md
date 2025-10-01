@@ -1,6 +1,6 @@
 ---
-title: Estrategias Efectivas de Respaldo para Azure Tables
-date: 2023-11-22 18:22:00 -0500
+title: Notion-AI review
+date: 2025-08-22 18:22:00 -0500
 categories: [note AI, Storage]
 tags: [AI, AI tools]
 image:
