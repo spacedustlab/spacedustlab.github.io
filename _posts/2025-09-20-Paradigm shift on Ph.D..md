@@ -35,4 +35,4 @@ And weaving all of it back into society and human life.
 This role as a “translator of knowledge” is not something that mere information retrieval can replace. It is an intellectual bridge—and while AI can rearrange information, only humans can walk across that bridge, assign meaning, and bring people together.
 
 ## Conclusion: The Meaning of the PhD
-The question is whether we let the dog bite or tame it. If we tame the technologies that threaten jobs, people can still find ways to endure.
+For me, the question came down to whether we let the dog bite or tame it. If we tame the technologies that threaten jobs, people can still find ways to endure. That was the first reason I thought it might be fine for me to choose the PhD path.
