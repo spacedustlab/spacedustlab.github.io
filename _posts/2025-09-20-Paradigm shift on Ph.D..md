@@ -8,7 +8,7 @@ tags: [AI, AI tools]
 ---
 
 ## Do We Still Need PhDs?
-I began my career as a developer in what seemed like a very promising time, just 1.5 year before the rise of LLMs. Exactly one year later, I witnessed skilled developers— from entry-level to even senior experts—being rapidly displaced. At first, it was just simple tasks—code autocompletion or grammar checks. But over time, AI began to creep into areas once thought safe: complex architecture design, performance optimization, and even tasks reserved for highly experienced senior developers.
+I began my career as a developer in what seemed like a very promising time, just 1.5 year before the rise of LLMs. Exactly the next year, I witnessed skilled developers— from entry-level to even senior experts—being rapidly displaced. At first, it was just simple tasks—code autocompletion or grammar checks. But over time, AI began to creep into areas once thought safe: complex architecture design, performance optimization, and even tasks reserved for highly experienced senior developers.
 I had assumed, “Maybe entry-level jobs, maybe mid-level roles—but surely decades of expertise can’t be replaced.” And yet, I found myself facing the reality that even what once seemed untouchable could now be automated. That was the moment I began to ask the same question about the "skill" itself: What is the skilled persons purpose, and why should this PhD institution continue to exist and why did I select this aftermath?
 Human knowledge is expanding at an exponential rate. Massive language models can scan through tens of millions of papers in seconds, seemingly outpacing even the most seasoned librarian. They can code, summarize papers, and even propose experimental designs. So, do we really still need PhDs?
 
