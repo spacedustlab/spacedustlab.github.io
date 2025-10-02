@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Haejung Koh
+title: Archives of a Space Dust
 ---
 An archive of space dust for delving into quantum computing, generative AI, and the chemistry of named reactions.
 
